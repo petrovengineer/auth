@@ -1,0 +1,26 @@
+POST http://localhost:4000/reg
+Content-Type: application/json
+
+{
+    "email": "test",
+    "password": "1212"
+}
+
+###
+
+GET http://localhost:4000/users
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3QiLCJpYXQiOjE1OTQyMzM4NDcsImV4cCI6MTU5NDIzMzg5Mn0.MR_Lynty-1A3vX_3aU0KQvyrJoQ4mvg_8pbsm5TAhHQ
+
+###
+
+POST http://localhost:4000/login
+Content-Type: application/json
+
+{
+    "email": "test",
+    "password": "1212"
+}
+
+###
+
+GET http://smart-spb.ru/auth/users
